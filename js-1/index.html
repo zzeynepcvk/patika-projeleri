@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patika ödev 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="body">
+    <div class="text-center">
+        <div class="text1 text-center">
+            Merhaba <strong> <span id="myName"> </span></strong> Hoş geldin!
+        </div>
+        <div id="myClock" class="clock" onload="showTime()"></div>
+        <div class="text2 text-center">
+            
+            <strong>Patika Frontend Web Development Patikası</strong>'nın
+            Javascript bölümü 1. Ödevindesiniz.
+        </div>
+    </div>
+    <script>
+
+        let userName = prompt("Adınızı girin")
+
+        let myName = document.querySelector("#myName")
+        myName.innerHTML = userName
+
+        function showTime() {
+            var today = new Date();
+           
+            let d = today.getDate();
+            let a=today.getMonth();
+            let y=today.getFullYear();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('myClock').innerHTML = "tarih :"+d+":"+a+":"+y+" ///  Saat : "+h+":" + m + ":" + s;
+            setTimeout(showTime, 1000);
+
+        }
+
+        function checkTime(i) {
+            if (i < 10) { i = "0" + i };  
+            return i;
+        }
+        showTime()
+
+    </script>
+</body>
+
+</html>

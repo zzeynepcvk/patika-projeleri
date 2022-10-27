@@ -1,0 +1,40 @@
+#body
+{
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+}
+
+
+.text-center
+{
+    text-align: center;
+}
+
+.text1 
+{
+    font-family:cursive;
+    font-size:xx-large;
+}
+.text2
+{
+    font-family:cursive;
+    font-size: x-large;
+
+}
+
+.clock
+ {
+    position: relative;
+    text-align: center;
+    color: #050b0b;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+  #myName
+  {
+    color: rgba(255, 255, 255, 0.74);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-size: 250%
+  }
