@@ -8,7 +8,7 @@ public class SayiToplama {
         int girilenSayi;
 
         do {
-            System.out.print("Bir sayı giriniz (Programdan çıkmak için 0'a basın): ");
+            System.out.print("Bir sayı giriniz: ");
             girilenSayi = scanner.nextInt();
 
             if (girilenSayi % 2 == 0 && girilenSayi % 4 == 0) {
