@@ -14,6 +14,8 @@ public class JavaPatika {
             result += number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void minus() {
@@ -33,6 +35,8 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void times() {
@@ -54,6 +58,8 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void divided() {
@@ -77,6 +83,8 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void power() {
@@ -92,6 +100,8 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void factorial() {
@@ -105,6 +115,8 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void modulus() {
@@ -115,6 +127,8 @@ public class JavaPatika {
         int divisor = scan.nextInt();
         int result = dividend % divisor;
         System.out.println("Sonuç : " + result);
+        scan.close();
+
     }
 
     static void rectangleAreaPerimeter() {
@@ -127,6 +141,7 @@ public class JavaPatika {
         int perimeter = 2 * (length + width);
         System.out.println("Alan : " + area);
         System.out.println("Çevre : " + perimeter);
+        scan.close();
     }
 
     public static void main(String[] args) {
