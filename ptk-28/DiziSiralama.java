@@ -21,5 +21,6 @@ public class DiziSiralama {
         for (int i = 0; i < n; i++) {
             System.out.print(dizi[i] + " ");
         }
+        scanner.close();
     }
 }
